@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="420" viewBox="0 0 1260 420" role="img" aria-labelledby="title desc">
+  <title id="title">Offline workflow преподавателя</title>
+  <desc id="desc">Путь от локального файла к проверенному учебному результату и журналу запуска.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#334155"/>
+    </marker>
+    <style>
+      .title { font: 700 30px Arial, sans-serif; fill: #1f2937; }
+      .label { font: 700 19px Arial, sans-serif; fill: #ffffff; }
+      .body { font: 16px Arial, sans-serif; fill: #1f2937; }
+      .box { stroke: #334155; stroke-width: 2; rx: 18; ry: 18; }
+    </style>
+  </defs>
+  <rect width="1260" height="420" fill="#f8fafc"/>
+  <text x="630" y="44" text-anchor="middle" class="title">Простой offline workflow преподавателя</text>
+
+  <rect x="40" y="145" width="180" height="85" class="box" fill="#2563eb"/>
+  <text x="130" y="194" text-anchor="middle" class="label">Локальный файл</text>
+
+  <rect x="280" y="145" width="220" height="85" class="box" fill="#0f766e"/>
+  <text x="390" y="194" text-anchor="middle" class="label">Локальный инструмент</text>
+
+  <rect x="560" y="145" width="210" height="85" class="box" fill="#7c3aed"/>
+  <text x="665" y="194" text-anchor="middle" class="label">Черновой результат</text>
+
+  <rect x="830" y="145" width="220" height="85" class="box" fill="#ea580c"/>
+  <text x="940" y="194" text-anchor="middle" class="label">Проверка человеком</text>
+
+  <rect x="1100" y="145" width="120" height="85" class="box" fill="#16a34a"/>
+  <text x="1160" y="194" text-anchor="middle" class="label">Урок</text>
+
+  <rect x="460" y="295" width="340" height="58" class="box" fill="#e2e8f0"/>
+  <text x="630" y="331" text-anchor="middle" class="body">Лог запуска, название модели, ограничения и замечания</text>
+
+  <line x1="220" y1="187" x2="280" y2="187" stroke="#334155" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="500" y1="187" x2="560" y2="187" stroke="#334155" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="770" y1="187" x2="830" y2="187" stroke="#334155" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="1050" y1="187" x2="1100" y2="187" stroke="#334155" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="390" y1="230" x2="520" y2="295" stroke="#334155" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="665" y1="230" x2="700" y2="295" stroke="#334155" stroke-width="3" marker-end="url(#arrow)"/>
+</svg>

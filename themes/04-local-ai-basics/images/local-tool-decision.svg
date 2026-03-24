@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="560" viewBox="0 0 1100 560" role="img" aria-labelledby="title desc">
+  <title id="title">Дерево выбора локального инструмента</title>
+  <desc id="desc">Схема выбора локального или облачного маршрута и старта с компактной модели.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#334155"/>
+    </marker>
+    <style>
+      .title { font: 700 30px Arial, sans-serif; fill: #1f2937; }
+      .label { font: 700 18px Arial, sans-serif; fill: #ffffff; }
+      .body { font: 16px Arial, sans-serif; fill: #1f2937; }
+      .box { stroke: #334155; stroke-width: 2; rx: 18; ry: 18; }
+      .small { font: 700 15px Arial, sans-serif; fill: #1f2937; }
+    </style>
+  </defs>
+  <rect width="1100" height="560" fill="#f8fafc"/>
+  <text x="550" y="44" text-anchor="middle" class="title">Дерево выбора локального маршрута</text>
+
+  <rect x="400" y="80" width="300" height="70" class="box" fill="#2563eb"/>
+  <text x="550" y="122" text-anchor="middle" class="label">Есть учебная задача</text>
+
+  <polygon points="450,185 650,185 710,245 550,305 390,245" class="box" fill="#0f766e"/>
+  <text x="550" y="236" text-anchor="middle" class="label">Нужен локальный</text>
+  <text x="550" y="260" text-anchor="middle" class="label">или offline-контур?</text>
+
+  <polygon points="440,340 660,340 720,395 550,455 380,395" class="box" fill="#7c3aed"/>
+  <text x="550" y="392" text-anchor="middle" class="label">Хватит ли машине</text>
+  <text x="550" y="416" text-anchor="middle" class="label">компактной модели?</text>
+
+  <rect x="120" y="360" width="180" height="90" class="box" fill="#dc2626"/>
+  <text x="210" y="404" text-anchor="middle" class="label">Облачный</text>
+  <text x="210" y="428" text-anchor="middle" class="label">маршрут</text>
+
+  <rect x="800" y="360" width="210" height="90" class="box" fill="#16a34a"/>
+  <text x="905" y="404" text-anchor="middle" class="label">Локальный старт</text>
+  <text x="905" y="428" text-anchor="middle" class="label">с компактной моделью</text>
+
+  <rect x="430" y="485" width="240" height="50" class="box" fill="#f59e0b"/>
+  <text x="550" y="516" text-anchor="middle" class="small">Не усложняем тему 04 сверх минимума</text>
+
+  <line x1="550" y1="150" x2="550" y2="185" stroke="#334155" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="435" y1="252" x2="300" y2="360" stroke="#334155" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="665" y1="252" x2="800" y2="360" stroke="#334155" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="550" y1="305" x2="550" y2="340" stroke="#334155" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="550" y1="455" x2="550" y2="485" stroke="#334155" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <text x="350" y="302" class="small">нет</text>
+  <text x="735" y="302" class="small">да</text>
+</svg>

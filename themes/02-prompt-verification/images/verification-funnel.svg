@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620" role="img" aria-labelledby="title desc">
+  <title id="title">Воронка верификации</title>
+  <desc id="desc">Последовательность проверки AI-результата: факты, учебная задача, критерии оценивания, тон и уровень, данные и безопасность, решение о применимости.</desc>
+  <defs>
+    <style>
+      .title { font: 700 30px Arial, sans-serif; fill: #1f2937; }
+      .step { font: 700 24px Arial, sans-serif; fill: #ffffff; }
+      .hint { font: 16px Arial, sans-serif; fill: #1f2937; }
+      .box { stroke: #334155; stroke-width: 2; }
+    </style>
+  </defs>
+
+  <rect width="1000" height="620" fill="#f8fafc"/>
+  <text x="500" y="50" text-anchor="middle" class="title">Воронка верификации AI-результата</text>
+
+  <polygon points="140,100 860,100 790,165 210,165" class="box" fill="#2563eb"/>
+  <text x="500" y="141" text-anchor="middle" class="step">1. Проверка фактов</text>
+
+  <polygon points="210,190 790,190 730,255 270,255" class="box" fill="#0f766e"/>
+  <text x="500" y="231" text-anchor="middle" class="step">2. Проверка учебной задачи</text>
+
+  <polygon points="270,280 730,280 675,345 325,345" class="box" fill="#16a34a"/>
+  <text x="500" y="321" text-anchor="middle" class="step">3. Проверка критериев оценивания</text>
+
+  <polygon points="325,370 675,370 625,435 375,435" class="box" fill="#ea580c"/>
+  <text x="500" y="411" text-anchor="middle" class="step">4. Тон и уровень группы</text>
+
+  <polygon points="375,460 625,460 585,520 415,520" class="box" fill="#dc2626"/>
+  <text x="500" y="498" text-anchor="middle" class="step">5. Данные и безопасность</text>
+
+  <rect x="350" y="540" width="300" height="48" rx="16" ry="16" class="box" fill="#111827"/>
+  <text x="500" y="571" text-anchor="middle" class="step">approve / revise / reject</text>
+</svg>

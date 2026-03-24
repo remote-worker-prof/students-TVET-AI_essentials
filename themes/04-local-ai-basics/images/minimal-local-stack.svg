@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">Минимальный локальный стек</title>
+  <desc id="desc">Локальная LLM как ядро, учебный артефакт, локальная транскрибация и локальная работа с документом.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#334155"/>
+    </marker>
+    <style>
+      .title { font: 700 30px Arial, sans-serif; fill: #1f2937; }
+      .label { font: 700 20px Arial, sans-serif; fill: #ffffff; }
+      .body { font: 16px Arial, sans-serif; fill: #1f2937; }
+      .box { stroke: #334155; stroke-width: 2; rx: 18; ry: 18; }
+    </style>
+  </defs>
+  <rect width="1200" height="430" fill="#f8fafc"/>
+  <text x="600" y="46" text-anchor="middle" class="title">Минимальный локальный стек темы 04</text>
+
+  <rect x="460" y="95" width="280" height="90" class="box" fill="#2563eb"/>
+  <text x="600" y="138" text-anchor="middle" class="label">Локальная LLM</text>
+  <text x="600" y="164" text-anchor="middle" class="label">Ollama или LM Studio</text>
+
+  <rect x="490" y="250" width="220" height="80" class="box" fill="#16a34a"/>
+  <text x="600" y="298" text-anchor="middle" class="label">Учебный артефакт</text>
+
+  <rect x="120" y="250" width="250" height="80" class="box" fill="#7c3aed"/>
+  <text x="245" y="286" text-anchor="middle" class="label">Локальная</text>
+  <text x="245" y="312" text-anchor="middle" class="label">транскрибация</text>
+
+  <rect x="830" y="250" width="250" height="80" class="box" fill="#ea580c"/>
+  <text x="955" y="286" text-anchor="middle" class="label">Локальная работа</text>
+  <text x="955" y="312" text-anchor="middle" class="label">с документом</text>
+
+  <line x1="600" y1="185" x2="600" y2="250" stroke="#334155" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="520" y1="185" x2="300" y2="250" stroke="#334155" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="680" y1="185" x2="900" y2="250" stroke="#334155" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <text x="600" y="378" text-anchor="middle" class="body">Базовый курс начинается с ядра, а прикладные сценарии добавляются только после реального локального запуска.</text>
+</svg>
