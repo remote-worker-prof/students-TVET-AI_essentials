@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "server",
+  "dolt_database": "students_TVET_AI_essentials",
+  "project_id": "b2d2f097-904a-4918-aa9d-d65f27191138"
+}
