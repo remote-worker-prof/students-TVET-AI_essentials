@@ -16,10 +16,11 @@
 
 ## 🧭 Маршрут выполнения
 1. Выполните входную проверку подготовки по [02_lecture_differentiation_foundations.md](02_lecture_differentiation_foundations.md).
-2. Спроектируйте полные комплекты уровней по [03_lecture_three_level_design.md](03_lecture_three_level_design.md).
-3. Выполните обязательную часть A по [05_practice_track_A_differentiated_module.md](05_practice_track_A_differentiated_module.md).
-4. Выполните один вариант части B по [06_practice_track_B_variant.md](06_practice_track_B_variant.md).
-5. Проверьте соответствие рубрике в [07_debrief_rubric.md](07_debrief_rubric.md).
+2. Пройдите цельную лекцию по [09_lecture_integrated_90min.md](09_lecture_integrated_90min.md).
+3. Спроектируйте полные комплекты уровней по [03_lecture_three_level_design.md](03_lecture_three_level_design.md).
+4. Выполните обязательную часть A по [05_practice_track_A_differentiated_module.md](05_practice_track_A_differentiated_module.md).
+5. Выполните один вариант части B по [06_practice_track_B_variant.md](06_practice_track_B_variant.md).
+6. Проверьте соответствие рубрике в [07_debrief_rubric.md](07_debrief_rubric.md).
 
 ---
 
